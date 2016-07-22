@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
-  <groupId>com-profile-parent</groupId>
+  <groupId>com-profile</groupId>
   <artifactId>profile-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
@@ -200,4 +200,7 @@
 			<url>dav:http://192.168.50.4:8080/repository/snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
+	<modules>
+		<module>profile-parent-infra</module>
+	</modules>
 </project>
